@@ -21,8 +21,9 @@ int main(){
 	* where A = represents the suit and ranges from 1-4 and
 	* B = represents the card rank (values 1-13) and ranges from 0-9 and A-D/a-d	 	
 	*/
-	cout << "Please note the hands entered should be in x0AB format, \nwhere A = represents the suit and ranges from 1-4 "
-					"and \nB = represents the card rank and ranges from 0-9 and A-D/a-d" << endl;
+	cout << "Please note the hands entered should be in 0xAB format," << endl;
+	cout << "where A = represents the suit and ranges from 1-4 and " << endl;
+	cout << "B = represents the card rank and ranges from 0-9 and A-D/a-d" << endl;
 	// Get the hands
 	for (int hand = 0; hand < 5; hand++) {
 		cout << "Enter card hand:"<<endl;
